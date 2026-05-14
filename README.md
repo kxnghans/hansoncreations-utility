@@ -12,10 +12,8 @@ Military pay and benefits calculator.
 
 ### [Gospel Games](./gospelgames)
 Interactive faith-based games.
-*Note: Gospel Games is Proprietary & Closed Source.*
 - [Coming Soon](./gospelgames/README.md)
 - [Privacy Policy](./gospelgames/PRIVACY.md)
-- [License](./gospelgames/LICENSE.md)
 
 ### [Unpack](./unpack)
 Streamlined organizational tools.
@@ -27,6 +25,6 @@ Streamlined organizational tools.
 ## About
 HansOnCreations is dedicated to building useful and engaging tools for everyone.
 
-
 ## License
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This repository and the projects within are Proprietary & Closed Source. See the [LICENSE](./LICENSE) file for the full terms.
+
