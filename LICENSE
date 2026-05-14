@@ -1,15 +1,13 @@
 Copyright (c) 2025-2026 HansOnCreations. All Rights Reserved.
 
-"HansOnCreations Projects" — including all source code, "Claymorphism" visual designs, Skia animations, and unique mechanics — is the private property of HansOnCreations.
-
 1. PROPRIETARY & CLOSED SOURCE
-   This software and its documentation are NOT open source. You are strictly prohibited from copying, modifying, distributing, or sharing any part of this project without express written permission from HansOnCreations.
+   This repository and its contents, including but not limited to source code, documentation, digital assets, and application logic, are the private property of HansOnCreations. This software is NOT open source.
 
-2. OWNERSHIP & INTELLECTUAL PROPERTY
-   HansOnCreations owns all rights, titles, and interests in this software and its associated documentation. This includes specific visual styles, digital assets, and application logic.
+2. INTELLECTUAL PROPERTY PROTECTION
+   HansOnCreations owns all rights, titles, and interests in and to the projects hosted here. You are strictly prohibited from copying, modifying, distributing, reverse-engineering, or sharing any part of this project without express written permission from HansOnCreations.
 
-3. CONFIDENTIALITY
-   Unauthorized disclosure of any logic, assets, or documentation within this repository is a violation of this agreement.
+3. NO WARRANTY (AS-IS)
+   THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. 
 
-4. NO WARRANTY (AS-IS)
-   THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS", WITHOUT ANY WARRANTY. HANSONCREATIONS IS NOT LIABLE FOR ANY CLAIMS, DAMAGES, OR ISSUES ARISING FROM THE USE OF THIS REPOSITORY.
+4. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL HANSONCREATIONS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
