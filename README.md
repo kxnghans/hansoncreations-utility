@@ -1,6 +1,6 @@
-# Hanson Creations
+# HansOnCreations
 
-Welcome to the Hanson Creations utility hub. This repository serves as the central location for our application information, support, and privacy policies.
+Welcome to the HansOnCreations utility hub. This repository serves as the central location for our application information, support, and privacy policies.
 
 ## Our Applications
 
@@ -12,8 +12,10 @@ Military pay and benefits calculator.
 
 ### [Gospel Games](./gospelgames)
 Interactive faith-based games.
+*Note: Gospel Games is Proprietary & Closed Source.*
 - [Coming Soon](./gospelgames/README.md)
 - [Privacy Policy](./gospelgames/PRIVACY.md)
+- [License](./gospelgames/LICENSE.md)
 
 ### [Unpack](./unpack)
 Streamlined organizational tools.
@@ -23,7 +25,8 @@ Streamlined organizational tools.
 ---
 
 ## About
-Hanson Creations is dedicated to building useful and engaging tools for everyone.
+HansOnCreations is dedicated to building useful and engaging tools for everyone.
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
