@@ -1,32 +1,35 @@
 # Privacy Policy for MilCalc
 
-**Effective Date: May 14, 2026**
+**Effective Date: May 14, 2026**  
+**Last Updated: August 17, 2026**
 
-MilCalc is committed to protecting your privacy. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information through our mobile application.
+This policy explains how MilCalc handles your data. The short version: we do not collect your personal information, and your calculations never leave your device.
 
-## 1. Zero Data Collection Policy
-MilCalc does **not** collect, store, or transmit any Personally Identifiable Information (PII). We do not require you to create an account, provide an email address, or share any personal details to use the application.
+## 1. Zero Data Collection
+MilCalc does not collect, store, or transmit Personally Identifiable Information (PII). You do not need to create an account, log in, or provide an email address to use the app.
 
-## 2. Local-First Processing
-All calculations—including fitness scores, financial projections, and retirement forecasts—are performed entirely on your device. The data you input (such as rank, years of service, or physical performance) remains on your device and is never uploaded to our servers.
+## 2. On-Device Processing
+All calculations (PT scores, drill and active pay, tax estimations, and BRS projections) run directly on your phone or tablet. Your inputs (rank, time in service, PT test values, location) stay on your hardware and never upload to our servers.
 
-## 3. Data Storage
-MilCalc uses a local SQLite database and "Smart Cache" to persist your calculation preferences and personal bests. This data stays within the application's secure storage on your mobile device and is not accessible by us or any third parties.
+## 3. Local Storage
+MilCalc saves your calculation preferences and saved records into a local SQLite database and cache on your device. We cannot access this database, nor can other apps on your device.
 
-## 4. Network Usage & Third-Party Services
-- **Metadata Synchronization**: MilCalc connects to our backend (Supabase) to download updated military standards (e.g., new pay scales or PT charts). This process is read-only and anonymous. No user data is sent during these updates.
-- **In-App Purchases**: We use **RevenueCat** to manage subscription status and **Apple/Google** for payment processing. These services may collect anonymous transaction IDs and device identifiers to ensure your subscription works across devices, but they do not share your name, credit card info, or personal details with us.
-- **Bug Reports**: If you choose to submit a bug report via the in-app tool, the information you provide is sent to our development team. This is a voluntary, write-only process. We strictly prohibit the inclusion of PII in bug reports.
-- **No Analytics/Tracking**: We do not use third-party analytics (like Google Analytics or Facebook Pixel) or tracking cookies within the app.
+## 4. Network Connections & Third Parties
+MilCalc only accesses the network in three specific scenarios:
+- **Standards updates**: The app periodically queries our Supabase backend to check for updated DFAS pay tables or Air Force PT charts. This request is read-only and anonymous. No user data is sent.
+- **Subscription management**: We use RevenueCat to verify in-app purchases and subscription state through Apple App Store and Google Play Store. These platforms process payments and return anonymous token IDs to unlock features. We never receive your credit card information, full name, or billing address.
+- **Bug reports**: If you submit a bug report through the app or web form, the text you write is submitted to our development backlog. Do not include sensitive military data, operational details, or PII in bug reports.
+- **Zero tracking scripts**: The app does not include Google Analytics, Meta Pixel, advertising SDKs, or session-recording trackers.
 
 ## 5. Security
-Because all sensitive data stays on your device, the security of your information depends on your device's security settings (e.g., passcodes, biometrics). We recommend keeping your device updated to the latest OS version.
+Because your calculations remain on your device, data security relies on your operating system's built-in sandbox and your lock screen controls (passcode, Face ID, fingerprint).
 
 ## 6. Children's Privacy
-Our services are not directed to children under 13. We do not knowingly collect personal information from children.
+MilCalc is built for military personnel and adult users. We do not knowingly collect information from children under 13.
 
-## 7. Changes to This Policy
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+## 7. Policy Updates
+If we change how network connections or features interact with third parties, we will update this document with a revised "Last Updated" date.
 
-## 8. Contact Us
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [hansoncreations.com](https://hansoncreations.com).
+## 8. Contact
+Questions or feedback about this privacy policy can be sent via [hansoncreations.com](https://hansoncreations.com).
+

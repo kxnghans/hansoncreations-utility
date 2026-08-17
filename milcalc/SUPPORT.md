@@ -1,30 +1,34 @@
-# MilCalc Support
+# MilCalc Support & FAQ
 
-Thank you for using MilCalc! We are committed to providing the most accurate and reliable calculation suite for the military community.
+Need help with a calculation, want to report an issue, or have a feature suggestion? Here is how to reach us.
 
-## How to Get Help
+## Support Channels
 
-If you encounter an issue, have a question about a calculation, or want to suggest a feature, please use one of the following methods:
+### 1. In-App Bug Reporter (Recommended)
+Open the app drawer or settings menu and select **Report a Bug**. This automatically attaches non-sensitive app version and OS information so we can diagnose calculation errors faster.
 
-### 1. Bug Reports & Feedback
-- **Fastest Method**: Use the **Bug Report** tool located directly in the app's settings or side menu. This allows you to provide technical context directly to our development team.
-- **Web Alternative**: If you cannot access the app, you can use our dedicated web portal: [hansoncreations.com/bug-report](https://hansoncreations.com/bug-report)
+### 2. Web Bug Report
+If you cannot open the app or prefer a browser, submit a report at:  
+[hansoncreations.com/bug-report](https://hansoncreations.com/bug-report)
 
-### 2. Email Support
-For general inquiries or if you cannot access the in-app tool, please visit our website:
+### 3. General Contact & Website
+For inquiries or feedback outside bug tracking:  
 [hansoncreations.com](https://hansoncreations.com)
 
-### 3. GitHub Issues
-If you are a developer or want to track the status of a known issue, you can visit our public documentation repository:
-[github.com/kobbyhanson/policies](https://github.com/kobbyhanson/policies) (or your chosen repo name)
+### 4. Issue Tracking
+You can review known issues and public documentation updates on GitHub:  
+[github.com/kxnghans/hansoncreations-utility/issues](https://github.com/kxnghans/hansoncreations-utility/issues)
 
-## Frequently Asked Questions (FAQ)
+---
 
-**Q: Does MilCalc work offline?**  
-A: Yes! MilCalc is designed for "Bunker-Ready" operation. All core PT and Pay calculations work 100% offline.
+## Frequently Asked Questions
 
-**Q: How often are the pay scales updated?**  
-A: We synchronize with our servers every 24 hours (when you have a connection) to ensure you have the latest standards.
+**Q: Does MilCalc work without an internet connection?**  
+A: Yes. All PT scoring tables, BAH rates, basic pay scales, and BRS formulas are bundled into the app and run locally on your device.
 
-**Q: Is my data safe?**  
-A: We collect **zero** Personally Identifiable Information (PII). Your rank, pay data, and PT scores stay on your device.
+**Q: How do pay tables and PT scoring charts stay updated?**  
+A: Whenever your device has internet access, MilCalc checks our backend once every 24 hours for official DFAS or Air Force chart revisions and caches them locally.
+
+**Q: Are my pay records or fitness scores sent anywhere?**  
+A: No. We collect zero PII. Everything you calculate or save stays exclusively in your local device storage.
+

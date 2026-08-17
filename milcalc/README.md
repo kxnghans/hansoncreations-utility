@@ -1,36 +1,39 @@
-# MilCalc: The Definitive Military Calculation Suite
+# MilCalc
 
-MilCalc is a high-precision, offline-first toolset built specifically for US military personnel. It combines fitness tracking, financial planning, and retirement strategy into a single, tactile interface designed for reliability in any environment.
+MilCalc is an offline calculator app for US service members. It handles Air Force PT scores, military pay with BAH and BAS estimates, and retirement comparisons (High-3 vs. BRS) directly on your device without creating an account or transmitting personal data.
 
-## Key Features
+## Features
 
-### 1. Air Force PT Tracker
-Stay ahead of your fitness goals with the most accurate scoring engine available.
-- **Full Exercise Support**: Scoring for all muscular and cardio events (2.0M Run, HAMR, Pushups, Crunches, Plank, and Hand-Release Pushups).
-- **Altitude Adaptation**: Automatic scoring adjustments for high-elevation environments.
-- **Exemption Logic**: Intelligent handling of partial exemptions per DAFMAN 36-2905.
-- **Health Risk Mapping**: Real-time visual feedback on Waist-to-Height Ratio (WHtR) and Cardio risk categories.
+### Air Force Physical Fitness Assessment
+Scoring calculations based on official DAFMAN 36-2905 standards:
+- **Cardio & Muscular components**: 1.5M run, 2.0M run, 20M HAMR, push-ups, hand-release push-ups, sit-ups, cross-leg reverse crunches, and forearm planks.
+- **Altitude adjustments**: Automatic score corrections based on base elevation.
+- **Exemptions**: Calculates composite scores across valid components when specific events are medically exempted.
+- **Risk metrics**: Waist-to-Height Ratio (WHtR) and cardio category tracking.
 
-### 2. Military Pay & Benefits
-Plan your finances with a professional-grade simulation engine.
-- **2025/2026 Standards**: Integrated Pay, BAH (Housing), and BAS (Subsistence) rates.
-- **Active & Reserve Support**: High-precision modeling for both Active Duty and Guard/Reserve (Drill Pay) members.
-- **Tax Simulation**: Detailed federal and state tax projections with manual override support for 100% accuracy.
-- **VA Disability Integration**: Models VA payments and potential pension offsets.
+### Pay & Allowances
+Monthly and annual pay estimates for active duty, Guard, and Reserve:
+- **Pay tables**: Current DFAS basic pay, BAH (with and without dependents), and BAS rates.
+- **Drill pay**: UTA and annual training estimates for drilling Guard and Reserve members.
+- **Taxes**: Federal, FICA, and state tax estimates, with customizable deduction inputs.
+- **Special pays & VA offsets**: VA disability compensation modeling and Concurrent Retirement and Disability Pay (CRDP) calculations.
 
-### 3. Retirement & Strategy
-Map your future with Blended Retirement System (BRS) and High-3 modeling.
-- **TSP Forecasting**: Projects future value using monthly compounding and BRS matching logic.
-- **Pension Estimation**: Accurate multipliers and "High-3" averaging.
-- **Retirement Age Tracker**: Specialized logic for Active Duty and "Reduced Age" eligibility for Guard/Reserve deployments.
+### Retirement Modeling
+Side-by-side comparison of legacy and modernized military retirements:
+- **Blended Retirement System (BRS)**: TSP monthly compounding projection with government 5% matching and continuation pay estimates.
+- **High-3 Pension**: Multipliers based on years of service and highest 36 months of basic pay.
+- **Guard/Reserve Retirement**: Point calculation conversions and reduced retirement age tracking for qualifying Title 10 active service deployments.
 
-## Why MilCalc?
+## Design & Privacy Principles
 
-- **Bunker-Ready (Offline First)**: MilCalc functions 100% offline. Whether you're on a flightline or in a remote location, your data and calculations are always available.
-- **Privacy First**: We collect **zero** Personally Identifiable Information (PII). Your data stays on your device, period.
-- **Tactile Design**: A unique "Soft UI" (Neumorphic) interface designed for clarity and ease of use in high-stress environments.
+- **Offline by default**: All calculation engines run locally on SQLite and in-memory caches. You do not need cell service or Wi-Fi on the flightline, shipboard, or in the field.
+- **Zero data collection**: No accounts, no emails, no analytics beacons, and no tracking scripts. Inputs stay on your phone.
+- **Direct feedback**: Neumorphic interface optimized for fast inputs with one hand.
 
-## Get Started
-MilCalc is built by veterans, for the military community. Our mission is to provide the most accurate tools to those who serve.
+## Documentation & Support
+- Web: [hansoncreations.com](https://hansoncreations.com)
+- Bug Reports: [hansoncreations.com/bug-report](https://hansoncreations.com/bug-report)
+- Terms of Use: [TERMS.md](./TERMS.md)
+- Privacy Policy: [PRIVACY.md](./PRIVACY.md)
+- Support & FAQ: [SUPPORT.md](./SUPPORT.md)
 
-[Visit hansoncreations.com](https://hansoncreations.com)

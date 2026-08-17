@@ -1,30 +1,33 @@
-# HansOnCreations
+# HansOnCreations Utility Hub
 
-Welcome to the HansOnCreations utility hub. This repository serves as the central location for our application information, support, and privacy policies.
+Public documentation, support guides, terms of service, and privacy policies for Hanson Creations applications.
 
-## Our Applications
+## Applications
 
 ### [MilCalc](./milcalc)
-Military pay and benefits calculator.
-- [README](./milcalc/README.md)
+Offline pay, PT fitness (DAFMAN 36-2905), and retirement calculation suite for US military service members.
+- [Overview](./milcalc/README.md)
 - [Privacy Policy](./milcalc/PRIVACY.md)
-- [Support](./milcalc/SUPPORT.md)
+- [Terms of Use & EULA](./milcalc/TERMS.md)
+- [Support & FAQ](./milcalc/SUPPORT.md)
 
 ### [Gospel Games](./gospelgames)
-Interactive faith-based games.
-- [Coming Soon](./gospelgames/README.md)
+Faith-based mobile party games and fellowship activities for Gen Z Christians and youth groups.
+- [Overview](./gospelgames/README.md)
 - [Privacy Policy](./gospelgames/PRIVACY.md)
 
 ### [Unpack](./unpack)
-Streamlined organizational tools.
-- [Coming Soon](./unpack/README.md)
+Personalized travel planning, smart packing, credit card travel perks tracking, and tiered secure document storage.
+- [Overview](./unpack/README.md)
 - [Privacy Policy](./unpack/PRIVACY.md)
 
 ---
 
-## About
-HansOnCreations is dedicated to building useful and engaging tools for everyone.
+## About Hanson Creations
+We build focused, offline-first mobile applications with tactile interfaces for service members, travelers, and community fellowship.
 
 ## License
-This repository and the projects within are Proprietary & Closed Source. See the [LICENSE](./LICENSE) file for the full terms.
+Proprietary & Closed Source. See the [LICENSE](./LICENSE) file for terms.
+
+
 
